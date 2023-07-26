@@ -1,0 +1,102 @@
+*,
+::before,
+::after {
+    display: block;
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+
+}
+
+title {
+    display: none;
+}
+
+html {
+    font-size: 10px;
+    margin: 0 10%;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 8px;
+    }
+}
+    
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #deb887;
+
+}
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 2.5rem;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+header {
+    position: relative;
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+}
+
+#header-img {
+    object-fit: fill;
+    width: 80%;
+    height: 20rem;
+    z-index: -1;
+    margin: 0 auto;
+
+}
+
+.hr-vid {
+    margin: 0 auto;
+    border: 1px solid black;
+    font-size: 4rem;
+}
+
+#video {
+    margin: auto;
+    width: 80%;
+    height: 40rem;
+}
+
+P {
+    font-size: 2rem;
+}
+
+#form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+#email {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#submit {
+    width: 100%;
+    background-color: #deb887;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
