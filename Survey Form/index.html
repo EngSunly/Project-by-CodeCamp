@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<h1 id="title">Survey Form on Life</h1>
+
+<p id="description">How do you view your life</p>
+
+<form id="survey-form">
+    <div>
+        <label id="name-label">Enter your Name:<input required type="text" id="name" placeholder="Sunly">
+        </label>
+        <label id="email-label"><br>Enter your email:<input required type="email" id="email"
+                placeholder="engsunly1@gmail.com">
+        </label>
+        <label id="number-label"><br>Rate your life 1-10:<input required type="number" id="number" placeholder="7"
+                min="0" max="10">
+        </label>
+        <div>
+            <p>Memory or Money </p>
+            <select id="dropdown">
+                <option>Blank</option>
+                <option id="Memory">
+                    Memory
+                </option>
+                <option id="Money">
+                    Money
+                </option>
+            </select>
+            <br>
+            <label for="Family"><input id="Family" type="radio" name="Person-type" value="Family" /> Family Type</label>
+            <label for="Friend"><input id="Friend" type="radio" name="Person-type" value="Friend" /> Friend
+                Type<br></label>
+
+            <input id="Time" type="checkbox" name="Love-lang" value="Time">Quality Time<br>
+            <input id="Touch" type="checkbox" value="Touch" name="Love-lang">Physical Touch<br>
+            <input id="Service" type="checkbox" name="Love-lang" value="Service">Acts of Service<br>
+            <input id="Gift" type="checkbox" name="Love-lang" value="Gift">Gifts<br>
+            <input id="Word" type="checkbox" name="Love-lang" value="Word">Word of Affirmation<br>
+            <label for="life">Life Comment<br>
+                <textarea placeholder="It's simple and short that's why i cherish every moment"></textarea>
+            </label>
+            <input id="submit" type="submit" />
+</form>
