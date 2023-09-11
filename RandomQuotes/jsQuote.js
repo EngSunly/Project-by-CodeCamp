@@ -19,4 +19,12 @@ window.addEventListener('DOMContentLoaded', getQuote);
 
 btn.addEventListener('click', getQuote);
 
+//tweet quote
+const tweetBtn = document.querySelector('#tweet-quote');
+tweetBtn.addEventListener('click', tweetQuote);
+
+function tweetQuote() {
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${text.innerHTML} - ${author.innerHTML}`;
+    window.open(twitterUrl, '_blank');
+}
 
